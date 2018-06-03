@@ -3,9 +3,9 @@ from setuptools import setup, find_packages
 setup(
     name             = 'tmi',
     version          = '0.5.599',
-    description      = "NoStress team (2018 HU-OSS B-6)'s Open Source CLI Todo List",
-    author           = 'onnoo',
-    author_email     = 'sweyjw@gmail.com',
+    description      = "NoStress team (2018 HU-OSS B-6)'s Open Source CLI Todo List - test",
+    author           = 'RDCPP',
+    author_email     = 'zzzz1362@naver.com',
     url              = 'https://github.com/RDCPP/hu-oss-sw-2018-B-6',
     download_url     = 'https://github.com/RDCPP/hu-oss-sw-2018-B-6/archive/master.tar.gz',
     install_requires = [ ],
