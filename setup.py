@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name             = 'tmi',
+    name             = 'tmi_test',
     version          = '0.5.599',
     description      = "NoStress team (2018 HU-OSS B-6)'s Open Source CLI Todo List - test",
     author           = 'RDCPP',
@@ -10,9 +10,9 @@ setup(
     download_url     = 'https://github.com/RDCPP/hu-oss-sw-2018-B-6/archive/master.tar.gz',
     install_requires = [ ],
     packages         = find_packages(exclude = [ ]),
-    keywords         = ['tmi', 'todo list', 'todo cli'],
+    keywords         = ['tmi_test', 'todo list', 'todo cli'],
     python_requires  = '>=3',
-    package_data     =  {'tmi' : [ "LICENSE" ]},
+    package_data     =  {'tmi_test' : [ "LICENSE" ]},
     zip_safe=False,
     classifiers      = [
         'Environment :: Consol',
@@ -27,6 +27,7 @@ setup(
     entry_points = {
         'console scripts' : [
             'tmi = tmi',
+            'tmi_test = tmi_test'
         ],
     },
 )
